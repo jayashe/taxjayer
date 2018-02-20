@@ -4,7 +4,9 @@ For a tax software product, adding individual taxable can be time-consuming if y
 
 ## Files required to run
 `cookie.txt` - Your cookie from the tax software website, to identify you.
+
 `domain.txt` - The domain of the tax software you're using, including TLD. ex: `"www.taxdefeater.com"`
+
 `stocks.csv` - A comma-separated table containing stock sale information, one entree per line. Format:
 
 | Security name (no spaces, max 15 characters) | mm/dd/yyyy date bought | mm/dd/yyyy date sold | sale price | Cost price |
