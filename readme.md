@@ -8,5 +8,6 @@ For a tax software product, adding individual taxable can be time-consuming if y
 `stocks.csv` - A comma-separated table containing stock sale information, one entree per line. Format:
 
 | Security name (no spaces, max 15 characters) | mm/dd/yyyy date bought | mm/dd/yyyy date sold | sale price | Cost price |
+| --- | --- | --- | --- | --- |
 
 All rows will be entered with `Box 3 Cost Basis Reported to the IRS`. If you need to use one of the other options, you'll need to change `DType` in the body of the request in taxes.sh to B or C for the second or third choices respectively.
